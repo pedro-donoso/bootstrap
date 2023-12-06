@@ -32,12 +32,12 @@
     border: 2px solid black;
 }
 /* hero-principal */
-
 .hero-principal h2 {
     font-size: 1.5 rem;
     color: #615151;
 }
 
+/* sobre mi */
 .sobre-mi{
     height: 500px;
     padding: 10px;
@@ -48,25 +48,65 @@
     text-align: center;
 }
 
+/* experiencia */
+.experiencia {
+    padding: 40px;
+}
 
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
-/* estilos generales */
+.experiencia i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor {
+   font-size: 20px; 
+   font-weight: bold;
+   margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+
+}
+
+/* ESTILOS GENERALES */
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-/* estilos generales */
 
 h1 {
     font-size: 2.5 rem;
     font-family: 'Rubik dirt', cursive;
 }
 
-.seccion-oscura{
+.seccion-oscura {
     color: white;
     background-color: #1b1b32;
+}
+
+.seccion-clara {
+    color: black;
 }
 
 .seccion-titulo {
