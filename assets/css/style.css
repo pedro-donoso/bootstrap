@@ -59,7 +59,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly;transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+    color: white;
+    background-color: #1b1b32;
 }
 
 .experiencia i {
@@ -84,8 +89,12 @@
 
 .badge {
     margin: 5px;
-
 }
+
+/* Proyectos */
+.proyectos-recientes {
+    padding: 40px;
+    }
 
 /* ESTILOS GENERALES */
 section {
@@ -107,7 +116,10 @@ h1 {
 
 .seccion-clara {
     color: black;
+    background-color: white;
 }
+
+
 
 .seccion-titulo {
     font-size: 2rem;
@@ -115,9 +127,21 @@ h1 {
     font-family: 'Rubik Dirt', cursive;
 }
 
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
 .seccion-texto {
     font-size: 1.2rem;
+}
 
+.texto-negro {
+    color: black;
+}
+
+.texto-blanco {
+    color: white;
 }
 
 /* responsivo */
