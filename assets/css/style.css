@@ -138,6 +138,16 @@
     opacity: 1;
 }
 
+.overlay .iconos-contenedor {
+    display: flex;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
 /* ESTILOS GENERALES */
 section {
     display: flex;
